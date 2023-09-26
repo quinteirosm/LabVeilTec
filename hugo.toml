@@ -1,0 +1,4 @@
+baseURL = 'https://quinteirosm.labveiltec.ch/'
+languageCode = 'fr-ch'
+title = 'LabVeilTec - quinteirosm'
+theme = 'papermod'
