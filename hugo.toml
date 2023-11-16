@@ -2,3 +2,51 @@ baseURL = 'https://quinteirosm.labveiltec.ch/'
 languageCode = 'fr-ch'
 title = 'LabVeilTec - quinteirosm'
 theme = 'github-style-plus'
+
+
+[params]
+  description = "More espresso, less depresso ☕"
+  github = "quinteirosm"
+  enableGithubFollowers = true
+  twitter = ""
+  linkedin = "miguelquinteiros"
+  email = "quinteiros.m@gmail.com"
+  stackoverflow=""
+  lastmod = true
+  userStatusEmoji = "😉"
+  favicon = "https://avatars.githubusercontent.com/u/50415792?v=4"
+  avatar = "https://avatars.githubusercontent.com/u/50415792?v=4"
+  location = "Taiwan"
+  enableGitalk = true
+  rss = true
+  enableLocalSearch = true
+  sponsorLink = "https://www.paypal.me/miigou" 
+  gtmId = "your gtm id"
+    
+  [params.gitalk]
+    accessToken = "Your Github access token" # Generate token from github settings  
+    repo = "quinteirosm.github.io" # 你要用來存放 issue 的 repo 名字(不一定要是你的 github page repo)
+    owner = "quinteirosm" # 你的GitHub ID
+    admin = "quinteirosm" # 你的GitHub ID
+    id = "location.pathname" # 文章頁面的連結就是ID
+    labels = "gitalk" # Github issue labels. If you used to use Gitment, you can change it
+    perPage = 15 # Pagination size, with maximum 100.
+    pagerDirection = "last" # Comment sorting direction, available values are 'last' and 'first'.
+    createIssueManually = true # 設置為true，如果是管理員登錄，會自動創建issue，如果是false，需要管理員手動添加第一個評論(issue)
+    distractionFreeMode = false # Enable hot key (cmd|ctrl + enter) submit comment.    
+    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token" # 可以自行添加反向代理
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/quinteirosm"
+  [[params.links]]
+    title = "Link2"
+    href = "https://github.com/quinteirosm"
+    icon = "https://avatars.githubusercontent.com/u/50415792?v=4"
+
+  [[params.customOrgs]]
+    link = "https://github.com/kurt-project"
+    img = "kurt-project.png" #Put your assets in static folder
+    name = "kurt-project"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

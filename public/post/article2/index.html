@@ -14,15 +14,13 @@
   <link rel="stylesheet" href='https://quinteirosm.labveiltec.ch/css/dark.css' />
   <link rel="stylesheet" href='https://quinteirosm.labveiltec.ch/css/syntax.css' />
   
+  <link rel="stylesheet" href="/your%20css%20file%20name" />
+  
   <title>
     Article2 | LabVeilTec - quinteirosm
   </title>
   
-  <link
-    rel="icon"
-    type="image/x-icon"
-    href='https://quinteirosm.labveiltec.ch/images/favicon.ico'
-  />
+  <link rel="icon" type="image/x-icon" href="/images/avatar.png" />
   
   <meta name="theme-color" content="#1e2327" />
 
@@ -273,13 +271,13 @@
               <div class="d-none d-md-block">
                 <a class="avatar mr-2 flex-shrink-0" href="https://quinteirosm.labveiltec.ch/">
                   <img class=" avatar-user"
-                    src="https://quinteirosm.labveiltec.ch/images/avatar.png"
-                    width="32" height="32" alt=""></a>
+                    src="/images/avatar.png"
+                    width="32" height="32" alt="Kurt"></a>
               </div>
               <div class="d-flex flex-column">
                 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
                   <span class="author">
-                    <a href="https://quinteirosm.labveiltec.ch/"></a></span><span
+                    <a href="https://quinteirosm.labveiltec.ch/">Kurt</a></span><span
                     class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
                       href="https://quinteirosm.labveiltec.ch/post/article2/">Article2</a></strong>
                 </h1>
@@ -288,6 +286,11 @@
                     class="no-wrap">
                     Tue, 26 Sep 2023 10:08:46 &#43;0200</relative-time>
 
+                  
+                  <span class="file-info-divider"></span>
+                  Modified <relative-time datetime="Thu, 16 Nov 2023 15:41:55 &#43;0100"
+                    class="no-wrap">
+                    Thu, 16 Nov 2023 15:41:55 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -350,7 +353,7 @@
         
         <div class="pagination-button previous-post">
           
-          <a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/post/article1/">Système d`écoute&nbsp;</a><div> »</div>
+          <a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/readme/">&nbsp;</a><div> »</div>
           
         </div>
       </div>
@@ -359,6 +362,23 @@
 </div>
 <script type="application/javascript" src='https://quinteirosm.labveiltec.ch/js/toc.js'></script>
 <link rel="stylesheet" href='https://quinteirosm.labveiltec.ch/css/toc.css' />
+
+<div id="gitalk-container" class="gitalk-container"></div>
+<link rel="stylesheet" href='https://quinteirosm.labveiltec.ch/css/gitalk.css'>
+<script src='https://quinteirosm.labveiltec.ch/js/gitalk.min.js'></script>
+<script>
+  const gitalk = new Gitalk({
+    accessToken: 'Your Github access token',
+    repo: 'kurt-liao.github.io',
+    owner: 'kurt-liao',
+    admin: ['kurt-liao'],
+    id: eval("location.pathname"), 
+    distractionFreeMode: false 
+  });
+  (function() {
+    gitalk.render('gitalk-container');
+  })();
+</script>
 
 
   <div class="footer container-xl width-full p-responsive">

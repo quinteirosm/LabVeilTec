@@ -1,8 +1,10 @@
 +++
 title = 'Système d`écoute'
-date = 2023-09-26T10:08:46+02:00
-draft = false
-summary = 'The summary'
+date = ""
+author = "miigou"
+keywords = ["intro", "justification"]
+cover = ""
+summary = " - "
 +++
 
 # Introduction
@@ -14,9 +16,9 @@ Le problème de cette méthode est que oui, on se documente mais on ne garde rie
 
 Mon gros problème était le fait de devoir visiter plusieurs sites un à un, car cela prend vite du temps de devoir switch et regarder si un article attire notre attention. J'ai donc porté un intérêt particulier à l'aggrégation des informations afin d'en simplifier la lecture et de minimiser le temps que ce la peut prendre. Pour cela j'ai utilisé plusieurs outils :
 
-## Inoreader
+## [Inoreader](https://www.inoreader.com)
 
-Inoreader est un lecteur/aggrégateur de flux RSS. On peut s'y abonner à des listes préconçues, comme par exemple les 10 meilleurs sites tech etc, ou à des sites uniques. Cela en cherchant le site s'il est déjà présent dans la DB du service ou en rentrant l'URL à la main.
+[Inoreader](https://www.inoreader.com) est un lecteur/aggrégateur de flux RSS. On peut s'y abonner à des listes préconçues, comme par exemple les 10 meilleurs sites tech etc, ou à des sites uniques. Cela en cherchant le site s'il est déjà présent dans la DB du service ou en rentrant l'URL à la main.
 
 Ce service permet aussi de faire des dossiers et d'y attribuer certains sites. Ce qui permet d'avoir un dossier "news" et un dossier "tech" afin de n'avoir que des informations d'une sorte précise lorsque l'on souhaite les découvrir. Sans ce système de dossier on peut se retrouver à avoir des ensembles d'articles hétérogènes ce qui reviendrait à aller sur la homepage d'un média.
 
@@ -24,7 +26,11 @@ Le service permet aussi d'enregistrer des articles pour les lire plus tard, ce q
 
 Si l'on paie on peut y synchroniser bien plus de choses comme des newslettes ou sa liste de follows sur YouTube, mais la version gratuite est amplement suffisante pour mon utilité.
 
-## Pocket
+Le seul problème que j'ai avec ce service est que tous les sites ne disposent pas de flux RSS. C'est pour cela que j'ai eu besoin de rechercher un deuxième outil.
+
+## [Pocket](https://www.getpocket.com)
+
+L'outil sus-mentionné est [Pocket](https://www.getpocket.com). Pourquoi ce dernier? Car il permet de _mieux_ sauvegarder les articles. Pour commencer, les sites n'ayant pas de flux RSS peuvent aussi y être enregistrés.
 
 # Pourquoi il me convient ?
 
