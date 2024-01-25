@@ -15,7 +15,7 @@
   <link rel="stylesheet" href='https://quinteirosm.labveiltec.ch/css/syntax.css' />
   
   <title>
-    Système d`écoute | LabVeilTec - quinteirosm
+    Problèmes et Solutions de `git rebase` dans Git | LabVeilTec - quinteirosm
   </title>
   
   <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/50415792?v=4" />
@@ -25,20 +25,20 @@
   
   <meta
   name="description"
-  content="De base je n’avais pas de système d’écoute, j’utilisais des apps ou des sites de la manière la plus simple possible. Le problème de cette méthode est que oui, on se documente mais on ne garde rien à côté. Si l’on veut retrouver des informations que l’on a lues antérieurement il faut s’en rappeller et les rechercher à nouveau."
+  content="L&amp;rsquo;utilisation de la commande git rebase peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git."
 />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://quinteirosm.labveiltec.ch/post/article1/" />
+<link rel="canonical" href="https://quinteirosm.labveiltec.ch/post/article4/" />
 
 
 <meta name="twitter:card" content="summary" />
 <meta
   name="twitter:title"
-  content="Système d`écoute - LabVeilTec - quinteirosm"
+  content="Problèmes et Solutions de `git rebase` dans Git - LabVeilTec - quinteirosm"
 />
 <meta
   name="twitter:description"
-  content="De base je n’avais pas de système d’écoute, j’utilisais des apps ou des sites de la manière la plus simple possible. Le problème de cette méthode est que oui, on se documente mais on ne garde rien à côté. Si l’on veut retrouver des informations que l’on a lues antérieurement il faut s’en rappeller et les rechercher à nouveau."
+  content="L&amp;rsquo;utilisation de la commande git rebase peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git."
 />
 <meta name="twitter:site" content="https://quinteirosm.labveiltec.ch/" />
 <meta name="twitter:creator" content="quinteirosm" />
@@ -54,14 +54,14 @@
 />
 <meta
   property="og:title"
-  content="Système d`écoute - LabVeilTec - quinteirosm"
+  content="Problèmes et Solutions de `git rebase` dans Git - LabVeilTec - quinteirosm"
 />
 <meta
   property="og:description"
-  content="De base je n’avais pas de système d’écoute, j’utilisais des apps ou des sites de la manière la plus simple possible. Le problème de cette méthode est que oui, on se documente mais on ne garde rien à côté. Si l’on veut retrouver des informations que l’on a lues antérieurement il faut s’en rappeller et les rechercher à nouveau."
+  content="L&amp;rsquo;utilisation de la commande git rebase peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git."
 />
-<meta property="og:url" content="https://quinteirosm.labveiltec.ch/post/article1/" />
-<meta property="og:site_name" content="Système d`écoute" />
+<meta property="og:url" content="https://quinteirosm.labveiltec.ch/post/article4/" />
+<meta property="og:site_name" content="Problèmes et Solutions de `git rebase` dans Git" />
 <meta
   property="og:image"
   content="https://quinteirosm.labveiltec.ch/"
@@ -275,7 +275,7 @@
                   <span class="author">
                     <a href="https://quinteirosm.labveiltec.ch/"></a></span><span
                     class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
-                      href="https://quinteirosm.labveiltec.ch/post/article1/">Système d`écoute</a></strong>
+                      href="https://quinteirosm.labveiltec.ch/post/article4/">Problèmes et Solutions de `git rebase` dans Git</a></strong>
                 </h1>
                 <div class="note m-0">
                   Created <relative-time datetime="Mon, 01 Jan 0001 00:00:00 &#43;0000"
@@ -284,9 +284,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Thu, 25 Jan 2024 10:44:09 &#43;0100"
+                  Modified <relative-time datetime="Thu, 25 Jan 2024 10:44:38 &#43;0100"
                     class="no-wrap">
-                    Thu, 25 Jan 2024 10:44:09 &#43;0100</relative-time>
+                    Thu, 25 Jan 2024 10:44:38 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -316,9 +316,9 @@
                         </div>
                       </div>
                     </details-menu>
-                      664 Words
+                      318 Words
                     <span class="file-info-divider"></span>
-                                        3 min
+                                        1 min
 
                   </div>
                   <div class="file-actions flex-order-2 pt-0">
@@ -329,28 +329,37 @@
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"><h1 id="système-découte-mit-en-place">Système d&rsquo;écoute mit en place</h1>
-<h1 id="introduction">Introduction</h1>
-<p>De base je n’avais pas de système d’écoute, j’utilisais des apps ou des sites de la manière la plus simple possible. Le problème de cette méthode est que oui, on se documente mais on ne garde rien à côté. Si l’on veut retrouver des informations que l’on a lues antérieurement il faut s’en rappeller et les rechercher à nouveau.</p>
-<h1 id="système-mit-en-place">Système mit en place</h1>
-<p>Mon gros problème était le fait de devoir visiter plusieurs sites un à un, car cela prend vite du temps de devoir switch et regarder si un article attire notre attention. J’ai donc porté un intérêt particulier à l’aggrégation des informations afin d’en simplifier la lecture et de minimiser le temps que cela peut prendre. Pour cela j’ai utilisé plusieurs outils :</p>
-<h2 id="inoreaderhttpswwwinoreadercom"><a href="https://www.inoreader.com/">Inoreader</a></h2>
-<p><a href="https://www.inoreader.com/">Inoreader</a> est un lecteur/aggrégateur de flux RSS. On peut s’y abonner à des listes préconçues, comme par exemple les 10 meilleurs sites tech etc, ou à des sites uniques. Cela en cherchant le site s’il est déjà présent dans la DB du service ou en rentrant l’URL à la main.</p>
-<p>Ce service permet aussi de faire des dossiers et d’y attribuer certains sites. Ce qui permet d’avoir un dossier “news” et un dossier “tech” afin de n’avoir que des informations d’une sorte précise lorsque l’on souhaite les découvrir. Sans ce système de dossier on peut se retrouver à avoir des ensembles d’articles hétérogènes ce qui reviendrait à aller sur la homepage d’un média.</p>
-<p>Le service permet aussi d’enregistrer des articles pour les lire plus tard, ce qui est pratique si l’on tombe sur un article intéressant mais long alors que l’on est sur un smartphone dans des transports publics.</p>
-<p>Si l’on paie on peut y synchroniser bien plus de choses comme des newslettes ou sa liste de follows sur YouTube, mais la version gratuite est amplement suffisante pour mon utilité.</p>
-<p>Le seul problème que j’ai avec ce service est que tous les sites ne disposent pas de flux RSS. C’est pour cela que j’ai eu besoin de rechercher un deuxième outil.</p>
-<h2 id="pockethttpswwwgetpocketcom"><a href="https://www.getpocket.com/">Pocket</a></h2>
-<p>Le fameux deuxième outil est <a href="https://www.getpocket.com/">Pocket</a>. Pourquoi ce dernier? Car il permet de <em>mieux</em> sauvegarder les articles. Ce plug-in permet d&rsquo;enregistrer les articles ou sites que l&rsquo;on souhaite garder en les enregistrant sur leur cloud ce qui permet d&rsquo;accéder à la ressource et cela même si cette dernière n&rsquo;existe plus.</p>
-<h2 id="tldr-newsletterhttpstldrtech"><a href="https://tldr.tech/">TLDR Newsletter</a></h2>
-<p><a href="https://tldr.tech/">TLDR</a> est une newsletter mise en place par des personnes dans les domaines techniques de l&rsquo;informatique et pour ces dernières. Elle suit une seule philosophie: recevoir chaque midi une newsletter recensant les actus tech de la journée passée et tout cela lisible en une dizaine de minutes.</p>
-<p>Cet outil est très utile mit en lien avec <a href="https://www.inoreader.com/">Inoreader</a> car je peux ne suivre que les sites d&rsquo;informations que j&rsquo;aime bien et tout de même avoir accès à des grosses news sur des sites que je connais pas. Cela me permet aussi de découvrir de nouveaux médias du secteur.</p>
-<p>Cette newsletter couvre différents sujets et permet de ne recevoir d&rsquo;informations que pour ceux qui nous intéressent, je me suis donc abonné à: Web Development, Information Security, DevOps, Mobile Dev et IT.</p>
-<p>Les newsletter recensent environ cinq articles par thème et on peut cliquer dessus, ce qui nous envoie vers la source de l&rsquo;information directement pour pouvoir lire l&rsquo;article entier.</p>
-<h1 id="méthodologie">Méthodologie</h1>
-<p>Ma méthodologie est donc relativement simple: durant mes trajets en train je vais sur <a href="https://www.inoreader.com/">Inoreader</a> pour m&rsquo;informer que ce soit dans des domaines personnels ou professionnels. Les articles que je souhaite retrouver sont envoyés sur <a href="https://www.getpocket.com/">Pocket</a> et à midi, je lis la <a href="https://tldr.tech/">TLDR Newsletter</a> et envoie sur <a href="https://www.getpocket.com/">Pocket</a> les articles qui m&rsquo;intéressent ou que je souhaite retrouver.</p>
-<h1 id="pourquoi-il-me-convient-">Pourquoi il me convient ?</h1>
-<p>Cela me permet d&rsquo;avoir une couverture plus large et de concentrer les articles gardés sur <a href="https://www.getpocket.com/">Pocket</a> uniquement. C&rsquo;est une méthodologie qui me convient très bien avec la mise en place de <a href="https://www.getpocket.com/">Pocket</a> car je n&rsquo;aime pas du tout devoir aller fouiller à divers endroit pour retrouver une information.</p>
+                <article class="markdown-body entry-content container-lg"><h1 id="problèmes-et-solutions-de-git-rebase-dans-git">Problèmes et Solutions de <code>git rebase</code> dans Git</h1>
+<h2 id="introduction">Introduction</h2>
+<p>L&rsquo;utilisation de la commande <code>git rebase</code> peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git.</p>
+<h2 id="problèmes-communs-avec-git-rebase">Problèmes Communs avec <code>git rebase</code></h2>
+<h3 id="résolution-répétée-de-conflits">Résolution Répétée de Conflits</h3>
+<p>Un problème courant avec <code>git rebase</code> est la nécessité de résoudre les mêmes conflits plusieurs fois.</p>
+<h4 id="solution">Solution:</h4>
+<p>Utiliser <code>git rerere</code> pour que Git se souvienne de la résolution des conflits et l&rsquo;applique automatiquement dans le futur.</p>
+<h3 id="difficulté-à-annuler-un-rebase">Difficulté à Annuler un Rebase</h3>
+<p>Il peut être difficile d&rsquo;annuler un rebase, surtout après un push forcé.</p>
+<h4 id="solution-1">Solution:</h4>
+<p>Apprendre à utiliser <code>git reflog</code> pour trouver l&rsquo;état précédent du dépôt et annuler le rebase si nécessaire.</p>
+<h3 id="force-push-sur-des-branches-partagées">Force Push sur des Branches Partagées</h3>
+<p>Le force push peut écraser le travail d&rsquo;autres développeurs sur des branches partagées.</p>
+<h4 id="solution-2">Solution:</h4>
+<p>Éviter de rebaser des branches qui ne sont pas locales. Si nécessaire, utiliser <code>--force-with-lease</code> pour s&rsquo;assurer qu&rsquo;aucun autre changement n&rsquo;a été poussé depuis le dernier fetch.</p>
+<h2 id="conseils-pratiques">Conseils Pratiques</h2>
+<h3 id="utilisation-de-loption---amend">Utilisation de l&rsquo;Option <code>--amend</code></h3>
+<p>Préférer l&rsquo;option <code>--amend</code> pour ajouter des changements au dernier commit plutôt que d&rsquo;utiliser <code>--continue</code> après la résolution d&rsquo;un conflit.</p>
+<h3 id="tests-automatiques-avec--x">Tests Automatiques avec <code>-x</code></h3>
+<p>Utiliser l&rsquo;option <code>-x</code> pour exécuter une suite de tests à chaque étape du rebase afin de s&rsquo;assurer que chaque commit est fonctionnel.</p>
+<h2 id="alternatives-au-rebase">Alternatives au Rebase</h2>
+<h3 id="merge-commits">Merge Commits</h3>
+<p>Faire des merges plutôt que des rebases pour intégrer les changements sans perturber l&rsquo;historique.</p>
+<h3 id="squash-and-merge">Squash and Merge</h3>
+<p>Utiliser la fonction &ldquo;squash and merge&rdquo; de GitHub pour combiner une série de commits en un seul avant de les fusionner avec la branche principale.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Bien que <code>git rebase</code> puisse être un outil puissant pour maintenir un historique propre, il est important de l&rsquo;utiliser avec prudence. En suivant les conseils et solutions proposés, les développeurs peuvent éviter les pièges courants et utiliser Git plus efficacement dans leurs projets.</p>
+<h2 id="en-quoi-cela-mest-utile">En quoi cela m&rsquo;est utile</h2>
+<h2 id="source">Source</h2>
+<p><a href="https://jvns.ca/blog/2023/11/06/rebasing-what-can-go-wrong-/">https://jvns.ca/</a></p>
 </article>
               </div>
 
@@ -363,13 +372,13 @@
       <div class="pagination-nav">
         <div class="pagination-button next-post">
           
-          <div>«&nbsp;</div><a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/post/article4/"> Problèmes et Solutions de `git rebase` dans Git</a>
+          <div>«&nbsp;</div><a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/post/article3/"> Découverte de ServerFree™</a>
           
         </div>
         
         <div class="pagination-button previous-post">
           
-          <a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/post/article5/">Tendances JavaScript 2023&nbsp;</a><div> »</div>
+          <a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/post/article1/">Système d`écoute&nbsp;</a><div> »</div>
           
         </div>
       </div>
