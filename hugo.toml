@@ -3,7 +3,6 @@ languageCode = 'fr-ch'
 title = 'LabVeilTec - quinteirosm'
 theme = 'github-style-plus'
 
-
 [params]
   description = "More espresso, less depresso ☕"
   github = "quinteirosm"
@@ -13,10 +12,10 @@ theme = 'github-style-plus'
   email = "quinteiros.m@gmail.com"
   stackoverflow=""
   lastmod = true
-  userStatusEmoji = "😉"
+  userStatusEmoji = "😴"
   favicon = "https://avatars.githubusercontent.com/u/50415792?v=4"
   avatar = "https://avatars.githubusercontent.com/u/50415792?v=4"
-  location = "Taiwan"
+  location = "Switzerland"
   enableGitalk = true
   rss = true
   enableLocalSearch = true
