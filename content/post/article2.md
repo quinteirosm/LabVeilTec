@@ -1,5 +1,5 @@
 +++
-title = 'Découverte de ServerFree™'
+title = 'Découverte de ServerFree'
 date = ""
 author = "quinteirosm"
 keywords = ["ServerFree", ]
