@@ -1,6 +1,6 @@
 +++
 title = 'Découverte de ServerFree'
-date = "10/01/2024"
+date = 2024-01-10T20:00:00+08:00
 author = "quinteirosm"
 keywords = ["ServerFree", ]
 cover = ""
