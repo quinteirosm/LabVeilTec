@@ -1,6 +1,6 @@
 +++
 title = 'Problèmes et Solutions de `git rebase` dans Git'
-date = "22-1-2023"
+date = "22/01/2024"
 author = "quinteirosm"
 keywords = ["notification", "webhooks", "scalability" ]
 cover = ""

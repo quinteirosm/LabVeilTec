@@ -1,6 +1,6 @@
 +++
 title = 'Comment faire un système de notifications scalable?'
-date = "20-1-2023"
+date = "20/01/2024"
 author = "quinteirosm"
 keywords = ["notification", "webhooks", "scalability" ]
 cover = ""
