@@ -1,6 +1,6 @@
 +++
 title = 'Tendances JavaScript 2023'
-date = ""
+date = "24-1-2023"
 author = "quinteirosm"
 keywords = ["notification", "webhooks", "scalability" ]
 cover = ""
