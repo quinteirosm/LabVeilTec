@@ -22,11 +22,11 @@ L'architecture ServerFree™ se base sur une application web traditionnelle, mai
 
 3. **Base de Données en WebAssembly :** SQLite, la base de données, est compilée en WebAssembly pour fonctionner directement dans le navigateur. Cela permet d'exécuter des requêtes SQL sans avoir besoin d'un serveur distant.
 
-## Avantages de la Protection de la Vie Privée
+## Avantages de la protection de la vie privée
 
 En l'absence de serveurs backend, les données personnelles ne transitent pas par des serveurs externes, ce qui réduit considérablement les risques de fuites de données. Les informations restent sur l'appareil de l'utilisateur, offrant un niveau supérieur de confidentialité.
 
-## Déchargement du Travail du Backend
+## Déchargement du travail du backend
 
 Cette architecture permet également de répartir la charge de calcul habituellement réservée au serveur vers le navigateur de l'utilisateur. Cela peut réduire les coûts d'infrastructure et améliorer les performances globales de l'application en minimisant la latence réseau.
 

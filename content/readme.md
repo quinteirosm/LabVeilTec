@@ -10,6 +10,8 @@ Je suis passioné d'art, de musique et de nouvelles technologies.
 
 Je souhaite travailler, après mes études, en tant que développeur fullstack. Étant un passioné de nouvelles technologies, je trouve ce milieu passionant et le fait qu'il évolue constamment permet de ne jamais s'ennuyer et de constamment avoir à apprendre!
 
+Ce projet est essentiellement pour le cours de LabVeilTec, mais étant donné que je risque de le continuer au fur et à mesure de ma veille et que d'autres personnes risquent de tomber dessus en fouillant mon GitHub, j'ai souhaité garder un vocabulaire plutôt technique et soutenu.
+
 ## Ikigai
 
 Le terme "Ikigai" nous vient du japonais et signifie "raison d'être" ou encore "une vie valant la peine d'être vécue".
