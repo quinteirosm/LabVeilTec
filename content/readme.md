@@ -17,8 +17,7 @@ C'est un outil qui permet de mettre des mots sur ses centres d'intérêts et de 
 Ce dernier est composé de quatre section: "Ce que j'aime", "Ce à quoi je suis bon", "Ce dont le monde a besoin" et "Ce pourquoi je peux être payé".
 Cet outil ne sert pas à atteindre l'abondance financière ou la renommée mais à nous donner une raison de vivre qui nous complète.
 En ce qui concerne le mien, le voici:
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FzkWbEgTunhnq3ZrROihGXN%2FIkigai-Diagram-(Copy)%3Ftype%3Dwhiteboard%26t%3DzbiF7GIj4YjgjXzp-1" allowfullscreen></iframe>
+![Mon ikigai](./imgs/ikigai.png)
 
 ## Choix du SSG ([Hugo](https://gohugo.io/))
 
