@@ -7,13 +7,13 @@ cover = ""
 summary = "L'architecture ServerFree™ propose une vision audacieuse où les applications web s'exécutent intégralement dans le navigateur, sans aucun serveur backend. Cet article explore les rouages de cette architecture et ses avantages potentiels, notamment en matière de protection de la vie privée et de décentralisation du traitement des données."
 +++
 
-### Découverte de ServerFree™
+# Découverte de ServerFree™
 
-#### Introduction
+## Introduction
 
 L'architecture ServerFree™ propose une vision audacieuse où les applications web s'exécutent intégralement dans le navigateur, sans aucun serveur backend. Cet article explore les rouages de cette architecture et ses avantages potentiels, notamment en matière de protection de la vie privée et de décentralisation du traitement des données.
 
-#### Comment ça marche ?
+## Comment ça marche ?
 
 L'architecture ServerFree™ se base sur une application web traditionnelle, mais avec une grande différence : tout le backend, y compris la base de données, est exécuté dans le navigateur de l'utilisateur. Voici les composants clés :
 
@@ -22,22 +22,22 @@ L'architecture ServerFree™ se base sur une application web traditionnelle, mai
 
 3. **Base de Données en WebAssembly :** SQLite, la base de données, est compilée en WebAssembly pour fonctionner directement dans le navigateur. Cela permet d'exécuter des requêtes SQL sans avoir besoin d'un serveur distant.
 
-#### Avantages de la Protection de la Vie Privée
+## Avantages de la Protection de la Vie Privée
 
 En l'absence de serveurs backend, les données personnelles ne transitent pas par des serveurs externes, ce qui réduit considérablement les risques de fuites de données. Les informations restent sur l'appareil de l'utilisateur, offrant un niveau supérieur de confidentialité.
 
-#### Déchargement du Travail du Backend
+## Déchargement du Travail du Backend
 
 Cette architecture permet également de répartir la charge de calcul habituellement réservée au serveur vers le navigateur de l'utilisateur. Cela peut réduire les coûts d'infrastructure et améliorer les performances globales de l'application en minimisant la latence réseau.
 
-#### Conclusion
+# Conclusion
 
 ServerFree™ ouvre la voie à une nouvelle génération d'applications web plus sécurisées, privées et performantes. Bien que cette approche puisse sembler radicale, elle offre une perspective fascinante sur ce que pourrait être le futur du développement web, en plaçant davantage de contrôle entre les mains des utilisateurs finaux.
 
-## En quoi cela m'est utile
+# En quoi cela m'est utile
 
 C'est un sujet que j'ai trouvé très intéressant car il peut être utile dans le cas de petits projets. Si le client ne souhaite pas avoir de coûts supplémentaires que l'hébergement et le nom de domaine, cela peut totalement être une solution envisageeable.
 
-## Source
+# Source
 
 [https://subzero.cloud/](https://subzero.cloud/blog/serverfree-architecture/)

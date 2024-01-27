@@ -14,7 +14,7 @@ Je souhaite travailler, après mes études, en tant que développeur fullstack. 
 
 Le terme "Ikigai" nous vient du japonais et signifie "raison d'être" ou encore "une vie valant la peine d'être vécue".
 C'est un outil qui permet de mettre des mots sur ses centres d'intérêts et de compétences afin de trouver sa propre vocation de vie.
-Ce dernier est composé de quatre section: "Ce que j'aime", "Ce à quoi je suis bon", "Ce dont le monde a besoin" et "Ce pourquoi je peux être payé".
+Ce dernier est composé de quatre sections: "Ce que j'aime", "Ce à quoi je suis bon", "Ce dont le monde a besoin" et "Ce pourquoi je peux être payé".
 Cet outil ne sert pas à atteindre l'abondance financière ou la renommée mais à nous donner une raison de vivre qui nous complète.
 En ce qui concerne le mien, le voici:
 ![Mon ikigai](./imgs/ikigai.png)

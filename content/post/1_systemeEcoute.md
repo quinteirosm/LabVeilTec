@@ -7,13 +7,13 @@ cover = ""
 summary = "De base je n’avais pas de système d’écoute, j’utilisais des apps ou des sites de la manière la plus simple possible. Le problème de cette méthode est que oui, on se documente mais on ne garde rien à côté. Si l’on veut retrouver des informations que l’on a lues antérieurement il faut s’en rappeller et les rechercher à nouveau."
 +++
 
-# Système d'écoute mit en place
+# Système d'écoute mis en place
 
 # Introduction
 
 De base je n’avais pas de système d’écoute, j’utilisais des apps ou des sites de la manière la plus simple possible. Le problème de cette méthode est que oui, on se documente mais on ne garde rien à côté. Si l’on veut retrouver des informations que l’on a lues antérieurement il faut s’en rappeller et les rechercher à nouveau.
 
-# Système mit en place
+# Système mis en place
 
 Mon gros problème était le fait de devoir visiter plusieurs sites un à un, car cela prend vite du temps de devoir switch et regarder si un article attire notre attention. J’ai donc porté un intérêt particulier à l’aggrégation des informations afin d’en simplifier la lecture et de minimiser le temps que cela peut prendre. Pour cela j’ai utilisé plusieurs outils :
 
@@ -37,7 +37,7 @@ Le fameux deuxième outil est [Pocket](https://www.getpocket.com/). Pourquoi ce 
 
 [TLDR](https://tldr.tech/) est une newsletter mise en place par des personnes dans les domaines techniques de l'informatique et pour ces dernières. Elle suit une seule philosophie: recevoir chaque midi une newsletter recensant les actus tech de la journée passée et tout cela lisible en une dizaine de minutes.
 
-Cet outil est très utile mit en lien avec [Inoreader](https://www.inoreader.com/) car je peux ne suivre que les sites d'informations que j'aime bien et tout de même avoir accès à des grosses news sur des sites que je connais pas. Cela me permet aussi de découvrir de nouveaux médias du secteur.
+Cet outil est très utile mis en lien avec [Inoreader](https://www.inoreader.com/) car je peux ne suivre que les sites d'informations que j'aime bien et tout de même avoir accès à des grosses news sur des sites que je connais pas. Cela me permet aussi de découvrir de nouveaux médias du secteur.
 
 Cette newsletter couvre différents sujets et permet de ne recevoir d'informations que pour ceux qui nous intéressent, je me suis donc abonné à: Web Development, Information Security, DevOps, Mobile Dev et IT.
 
