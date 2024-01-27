@@ -286,9 +286,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Sat, 27 Jan 2024 14:19:12 &#43;0100"
+                  Modified <relative-time datetime="Sat, 27 Jan 2024 15:15:29 &#43;0100"
                     class="no-wrap">
-                    Sat, 27 Jan 2024 14:19:12 &#43;0100</relative-time>
+                    Sat, 27 Jan 2024 15:15:29 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -318,9 +318,9 @@
                         </div>
                       </div>
                     </details-menu>
-                      151 Words
+                      554 Words
                     <span class="file-info-divider"></span>
-                                        1 min
+                                        3 min
 
                   </div>
                   <div class="file-actions flex-order-2 pt-0">
@@ -332,13 +332,20 @@
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
                 <article class="markdown-body entry-content container-lg"><h1 id="introduction">Introduction</h1>
-<p>Durant le cours de LabVeilTec, on nous a demandé de rendre ces différents articles sous forme de site web utilisant un SSG afin de découvrir de nouvelles technologies. Cela m&rsquo;a beaucoup intéressé car c&rsquo;est un système qui permet d&rsquo;avoir un site facilement gérable en terme de contenu, et cela en créant des fichiers au format MarkDown. Le SSG que j&rsquo;avais choisis durant le cours était Hugo et vous pouvez en <a href="../readme.md">retrouver les raisons ici.</a></p>
-<h1 id="champ-dapplication">Champ d&rsquo;application</h1>
-<p>J&rsquo;ai trouvé le sujet bien intéressant car nous devions rendre un portfolio durant le cours ProfilPro et c&rsquo;est selone moi l&rsquo;application idéale pour ce genre de framework.
+<p>Durant le cours de LabVeilTec, on nous a demandé de rendre ces différents articles sous forme de site web utilisant un SSG afin de découvrir de nouvelles technologies. Cela m&rsquo;a beaucoup intéressé car c&rsquo;est un système qui permet d&rsquo;avoir un site facilement gérable en terme de contenu, et cela en créant des fichiers au format MarkDown. Le SSG que j&rsquo;avais choisis durant le cours était Hugo et vous pouvez en <a href="../readme/index.html">retrouver les raisons ici.</a></p>
+<h1 id="expérience-site-portfoliohttpsquinteirosmgithubioportfolio">Expérience <a href="https://quinteirosm.github.io/portfolio">site Portfolio</a></h1>
+<p>J&rsquo;ai trouvé le sujet bien intéressant car nous devions rendre un portfolio durant le cours ProfilPro et c&rsquo;est selon moi le type de projet idéal pour ce genre de framework.
 De ce que j&rsquo;ai pu voir sur les différents thèmes, les SSG sont souvent utilisés pour des blogs ce qui est totalement prévisible de par le format qui permet de créer des posts facilement et tout cela en ayant une infrastructure à moindre coûts.</p>
+<p>## Résultat attendu</p>
+<p>Je suis parti du principe qu&rsquo;un portfolio est un blog, mais que les articles de blog sont remplacés par les projets qui y sont exposés. C&rsquo;est pour cela que j&rsquo;ai souhaité adapter le framework afin que chaque projet soit un article en markdown et qu&rsquo;une boucle les génère automatiquement dans la partie expériences.</p>
+<p>## Résultat obtenu</p>
+<p>J&rsquo;ai réussi à modifier les templates afin d&rsquo;avoir un portfolio à la hauteur de mes attentes en ce qui concerne l&rsquo;affichage. Cependant, étant en rush de fin de semestre, je n&rsquo;ai pas eu le temps d&rsquo;implémenter les projets en tant qu&rsquo;articles. C&rsquo;est pour cela que je me suis servi du fonctionnement de base du thème qui propose de les rentrer dans le fichier de config yaml et de les générer à partir de ce dernier.</p>
+<h2 id="améliorations-futures">Améliorations futures</h2>
+<p>Pour le futur je souhaite donc mettre en place un système de cards qui serait généré à partir des articles en markdown et contiendrait la photo de cover, le titre de l&rsquo;article et la description. Cela me permettrait aussi de retrieve les tags afin de pouvoir y appliquer un filtre par compétences. Cela me permettrait donc d&rsquo;avoir, comme je le souhaitais, mes expériences professionnelles qui seraient auto-générées et le site serait dès lors simple à maintenir étant donner que pour ajouter ou modifier quoi que ce soit tout se passerait dans les fichiers en markdown et serait totalement dynamique.</p>
+<p>L&rsquo;option que j&rsquo;envisage est aussi d&rsquo;acheter un nom de domaine car <a href="https://pages.github.com/">Github Pages</a> propose d&rsquo;inclure un nom de domaine personalisé. Cela permettrait de passer de <code>quinteirosm.github.io/portfolio</code> à <code>quinteirosm.ch</code>. Je ne pense pas que cela importe beaucoup en ce qui concerne le recrutement mais cela rendrait tout de même le site plus professionnel.</p>
 <h1 id="conclusion">Conclusion</h1>
-<h2 id="source">Source</h2>
-<p><a href="https://risingstars.js.org/2023/en">https://risingstars.js.org/</a></p>
+<p>Les SSG sont en effet très pratiques pour concevoir de petits projets facilement mettables à jour. Ils permettent de s&rsquo;affranchir d&rsquo;une architecture lourde CMS classique avec base de données comme Wordpress par exemple. Le fait d&rsquo;avoir un site statique au final permet aussi de l&rsquo;héberger sur <a href="https://pages.github.com/">Github Pages</a> et d&rsquo;avoir dès lors aucun coût d&rsquo;infrastructure car ce service est totalement gratuit. Comme tout service d&rsquo;hébergement gratuit il possède des limitations mais ces dernières sont relativement larges (100GB de bande passante/mois) et ne seront sûrement jamais atteintes pour un portfolio qui est un site qui n&rsquo;est pas visité très fréquemment et qui est très léger (moins de 10MB).</p>
+<p><a href="https://quinteirosm.github.io/portfolio">Vous pouvez retrouver mon portfolio ici !</a></p>
 </article>
               </div>
 
