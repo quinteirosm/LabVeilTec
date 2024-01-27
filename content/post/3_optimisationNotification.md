@@ -1,6 +1,6 @@
 +++
 title = 'Comment faire un système de notifications scalable?'
-date = 2024-01-20T20:00:00+08:00
+date = 2024-01-20
 author = "quinteirosm"
 keywords = ["notification", "webhooks", "scalability" ]
 cover = ""
@@ -38,6 +38,8 @@ Pour maintenir la fiabilité et la transparence, Razorpay a mis en place un cadr
 L'évolution du système de notification de Razorpay illustre l'importance d'une infrastructure évolutive et réactive pour gérer les communications client. En utilisant des webhooks et Amazon Kinesis, Razorpay a non seulement résolu ses problèmes initiaux mais a également posé les bases pour une croissance future sans entraves.
 
 ## En quoi cela m'est utile
+
+Cet article m'a intéressé car nous sommes actuellement entrain de développer une application mobile hybride pour un cours à la HEIG et on nous a demandé d'utiliser des fonctions natives à l'OS dont fait partie le système de notifications. Je souhaitais donc savoir comment optimiser au possible cet aspect de l'application. Au final je ne l'ai pas utilisé car, à notre échelle, cela ne faisait pas de sens de se compliquer la vie avec un système plus optimisé mais aussi plus complexe.
 
 ## Source
 

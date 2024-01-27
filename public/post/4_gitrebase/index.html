@@ -15,7 +15,7 @@
   <link rel="stylesheet" href='https://quinteirosm.labveiltec.ch/css/syntax.css' />
   
   <title>
-     | LabVeilTec - quinteirosm
+    Problèmes et Solutions de `git rebase` dans Git | LabVeilTec - quinteirosm
   </title>
   
   <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/50415792?v=4" />
@@ -25,25 +25,23 @@
   
   <meta
   name="description"
-  content="À propos Ce site a été réalisé lors de mon 5ème semestre à la HEIG-VD pour le cours de LabVeilTec. Le but du cours est non seulement de nous pousser à faire de la veille afin de toujours être au courant des dernières nouveautés du métier mais aussi à nous pousser à stocker les articles que l&amp;rsquo;on trouve pertinents afin de toujours avoir une bibliothèque de connaissances facile d&amp;rsquo;accès.
-Et moi?"
+  content="L&amp;rsquo;utilisation de la commande git rebase peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git."
 />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://quinteirosm.labveiltec.ch/readme/" />
+<link rel="canonical" href="https://quinteirosm.labveiltec.ch/post/4_gitrebase/" />
 
 
 <meta name="twitter:card" content="summary" />
 <meta
   name="twitter:title"
-  content=" - LabVeilTec - quinteirosm"
+  content="Problèmes et Solutions de `git rebase` dans Git - LabVeilTec - quinteirosm"
 />
 <meta
   name="twitter:description"
-  content="À propos Ce site a été réalisé lors de mon 5ème semestre à la HEIG-VD pour le cours de LabVeilTec. Le but du cours est non seulement de nous pousser à faire de la veille afin de toujours être au courant des dernières nouveautés du métier mais aussi à nous pousser à stocker les articles que l&amp;rsquo;on trouve pertinents afin de toujours avoir une bibliothèque de connaissances facile d&amp;rsquo;accès.
-Et moi?"
+  content="L&amp;rsquo;utilisation de la commande git rebase peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git."
 />
 <meta name="twitter:site" content="https://quinteirosm.labveiltec.ch/" />
-<meta name="twitter:creator" content="" />
+<meta name="twitter:creator" content="quinteirosm" />
 <meta
   name="twitter:image"
   content="https://quinteirosm.labveiltec.ch/"
@@ -56,21 +54,22 @@ Et moi?"
 />
 <meta
   property="og:title"
-  content=" - LabVeilTec - quinteirosm"
+  content="Problèmes et Solutions de `git rebase` dans Git - LabVeilTec - quinteirosm"
 />
 <meta
   property="og:description"
-  content="À propos Ce site a été réalisé lors de mon 5ème semestre à la HEIG-VD pour le cours de LabVeilTec. Le but du cours est non seulement de nous pousser à faire de la veille afin de toujours être au courant des dernières nouveautés du métier mais aussi à nous pousser à stocker les articles que l&amp;rsquo;on trouve pertinents afin de toujours avoir une bibliothèque de connaissances facile d&amp;rsquo;accès.
-Et moi?"
+  content="L&amp;rsquo;utilisation de la commande git rebase peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git."
 />
-<meta property="og:url" content="https://quinteirosm.labveiltec.ch/readme/" />
-<meta property="og:site_name" content="" />
+<meta property="og:url" content="https://quinteirosm.labveiltec.ch/post/4_gitrebase/" />
+<meta property="og:site_name" content="Problèmes et Solutions de `git rebase` dans Git" />
 <meta
   property="og:image"
   content="https://quinteirosm.labveiltec.ch/"
 />
 <meta property="og:image:width" content="2048" />
 <meta property="og:image:height" content="1024" />
+
+<meta property="article:published_time" content="2024-01-22 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -278,18 +277,18 @@ Et moi?"
                   <span class="author">
                     <a href="https://quinteirosm.labveiltec.ch/"></a></span><span
                     class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
-                      href="https://quinteirosm.labveiltec.ch/readme/"></a></strong>
+                      href="https://quinteirosm.labveiltec.ch/post/4_gitrebase/">Problèmes et Solutions de `git rebase` dans Git</a></strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Mon, 01 Jan 0001 00:00:00 &#43;0000"
+                  Created <relative-time datetime="Mon, 22 Jan 2024 00:00:00 &#43;0000"
                     class="no-wrap">
-                    Mon, 01 Jan 0001 00:00:00 &#43;0000</relative-time>
+                    Mon, 22 Jan 2024 00:00:00 &#43;0000</relative-time>
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Sat, 27 Jan 2024 14:39:16 &#43;0100"
+                  Modified <relative-time datetime="Sat, 27 Jan 2024 14:17:46 &#43;0100"
                     class="no-wrap">
-                    Sat, 27 Jan 2024 14:39:16 &#43;0100</relative-time>
+                    Sat, 27 Jan 2024 14:17:46 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -319,7 +318,7 @@ Et moi?"
                         </div>
                       </div>
                     </details-menu>
-                      426 Words
+                      414 Words
                     <span class="file-info-divider"></span>
                                         2 min
 
@@ -332,26 +331,38 @@ Et moi?"
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"><h1 id="à-propos">À propos</h1>
-<p>Ce site a été réalisé lors de mon 5ème semestre à la HEIG-VD pour le cours de LabVeilTec. Le but du cours est non seulement de nous pousser à faire de la veille afin de toujours être au courant des dernières nouveautés du métier mais aussi à nous pousser à stocker les articles que l&rsquo;on trouve pertinents afin de toujours avoir une bibliothèque de connaissances facile d&rsquo;accès.</p>
-<h2 id="et-moi">Et moi?</h2>
-<p>Je m&rsquo;appelle Miguel, je suis titulaire d&rsquo;un CFC en médiamatique depuis 2019 et d&rsquo;une maturité post-CFC TASV depuis 2021.</p>
-<p>Je suis passioné d&rsquo;art, de musique et de nouvelles technologies.</p>
-<p>Je souhaite travailler, après mes études, en tant que développeur fullstack. Étant un passioné de nouvelles technologies, je trouve ce milieu passionant et le fait qu&rsquo;il évolue constamment permet de ne jamais s&rsquo;ennuyer et de constamment avoir à apprendre!</p>
-<h2 id="ikigai">Ikigai</h2>
-<p>Le terme &ldquo;Ikigai&rdquo; nous vient du japonais et signifie &ldquo;raison d&rsquo;être&rdquo; ou encore &ldquo;une vie valant la peine d&rsquo;être vécue&rdquo;.
-C&rsquo;est un outil qui permet de mettre des mots sur ses centres d&rsquo;intérêts et de compétences afin de trouver sa propre vocation de vie.
-Ce dernier est composé de quatre section: &ldquo;Ce que j&rsquo;aime&rdquo;, &ldquo;Ce à quoi je suis bon&rdquo;, &ldquo;Ce dont le monde a besoin&rdquo; et &ldquo;Ce pourquoi je peux être payé&rdquo;.
-Cet outil ne sert pas à atteindre l&rsquo;abondance financière ou la renommée mais à nous donner une raison de vivre qui nous complète.
-En ce qui concerne le mien, le voici:</p>
-<!-- raw HTML omitted -->
-<h2 id="choix-du-ssg-hugohttpsgohugoio">Choix du SSG (<a href="https://gohugo.io/">Hugo</a>)</h2>
-<p><a href="https://gohugo.io/">Hugo</a> est un Static Site Generator (SSG) qui tourne en <a href="https://go.dev/">GoLang</a>. C&rsquo;est un language développé par Google qui est bas niveau, ce qui permet de build le site beaucoup plus rapidement qu&rsquo;avec un language haut niveau tel que <a href="https://www.11ty.dev/">Eleventy</a> qui tourne en <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">JavaScript</a> ou <a href="https://www.gatsbyjs.com/">Gatsby</a> qui tourne en <a href="https://react.dev/">React</a> qui est un framework en JavaScript.
-J&rsquo;ai hésité avec <a href="https://jekyllrb.com/">Jekyll</a> mais le problème est que c&rsquo;est un framework basé sur <a href="https://www.rust-lang.org/">Rust</a>, étant un language qui sort de mes habitudes je n&rsquo;avais pas envie de perdre du temps à comprendre un language que je ne connais pas.</p>
-<p>Je souhaitais tout de même profiter de ce projet pour pouvoir explorer d&rsquo;autres technologies. Sachant que nous avions déjà vu JavaScript, Vue et Angular durant les cours, je me suis donc tourné vers Hugo.
-Go est un langage moderne qui a pour vocation d&rsquo;être simple à comprendre et qui possède une grande communauté, ce qui m&rsquo;a conforté dans mon choix car si je devais modifier des fichiers en Go je sais que j&rsquo;aurai facilement trouvé de la documentation ou des tutoriels.</p>
-<h3 id="source">Source</h3>
-<p><a href="https://tomhazledine.com/eleventy-static-site-generator/">https://tomhazledine.com/</a></p>
+                <article class="markdown-body entry-content container-lg"><h1 id="problèmes-et-solutions-de-git-rebase-dans-git">Problèmes et Solutions de <code>git rebase</code> dans Git</h1>
+<h2 id="introduction">Introduction</h2>
+<p>L&rsquo;utilisation de la commande <code>git rebase</code> peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git.</p>
+<h2 id="problèmes-communs-avec-git-rebase">Problèmes Communs avec <code>git rebase</code></h2>
+<h3 id="résolution-répétée-de-conflits">Résolution Répétée de Conflits</h3>
+<p>Un problème courant avec <code>git rebase</code> est la nécessité de résoudre les mêmes conflits plusieurs fois.</p>
+<h4 id="solution">Solution:</h4>
+<p>Utiliser <code>git rerere</code> pour que Git se souvienne de la résolution des conflits et l&rsquo;applique automatiquement dans le futur.</p>
+<h3 id="difficulté-à-annuler-un-rebase">Difficulté à Annuler un Rebase</h3>
+<p>Il peut être difficile d&rsquo;annuler un rebase, surtout après un push forcé.</p>
+<h4 id="solution-1">Solution:</h4>
+<p>Apprendre à utiliser <code>git reflog</code> pour trouver l&rsquo;état précédent du dépôt et annuler le rebase si nécessaire.</p>
+<h3 id="force-push-sur-des-branches-partagées">Force Push sur des Branches Partagées</h3>
+<p>Le force push peut écraser le travail d&rsquo;autres développeurs sur des branches partagées.</p>
+<h4 id="solution-2">Solution:</h4>
+<p>Éviter de rebaser des branches qui ne sont pas locales. Si nécessaire, utiliser <code>--force-with-lease</code> pour s&rsquo;assurer qu&rsquo;aucun autre changement n&rsquo;a été poussé depuis le dernier fetch.</p>
+<h2 id="conseils-pratiques">Conseils Pratiques</h2>
+<h3 id="utilisation-de-loption---amend">Utilisation de l&rsquo;Option <code>--amend</code></h3>
+<p>Préférer l&rsquo;option <code>--amend</code> pour ajouter des changements au dernier commit plutôt que d&rsquo;utiliser <code>--continue</code> après la résolution d&rsquo;un conflit.</p>
+<h3 id="tests-automatiques-avec--x">Tests Automatiques avec <code>-x</code></h3>
+<p>Utiliser l&rsquo;option <code>-x</code> pour exécuter une suite de tests à chaque étape du rebase afin de s&rsquo;assurer que chaque commit est fonctionnel.</p>
+<h2 id="alternatives-au-rebase">Alternatives au Rebase</h2>
+<h3 id="merge-commits">Merge Commits</h3>
+<p>Faire des merges plutôt que des rebases pour intégrer les changements sans perturber l&rsquo;historique.</p>
+<h3 id="squash-and-merge">Squash and Merge</h3>
+<p>Utiliser la fonction &ldquo;squash and merge&rdquo; de GitHub pour combiner une série de commits en un seul avant de les fusionner avec la branche principale.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Bien que <code>git rebase</code> puisse être un outil puissant pour maintenir un historique propre, il est important de l&rsquo;utiliser avec prudence. En suivant les conseils et solutions proposés, les développeurs peuvent éviter les pièges courants et utiliser Git plus efficacement dans leurs projets.</p>
+<h2 id="en-quoi-cela-mest-utile">En quoi cela m&rsquo;est utile</h2>
+<p>Git étant omniprésent dans le secteur du développement, nous avons souvent eu à l&rsquo;utiliser. Le problème est que lorsque l&rsquo;on est débutant un couac peut vite arriver suite à une fusion, un merge ou un rebase et l&rsquo;on peut se retrouver avec beaucoup de fichiers écrasés ou des effets de bord auxquels on ne s&rsquo;attend pas car on en a pas la connaissance. C&rsquo;est pour cela que cet article m&rsquo;a directement sauté aux yeux, car il est impératif de toujours savoir où aller chercher une solution à propos d&rsquo;un problème qui risque de compliquer un projet.</p>
+<h2 id="source">Source</h2>
+<p><a href="https://jvns.ca/blog/2023/11/06/rebasing-what-can-go-wrong-/">https://jvns.ca/</a></p>
 </article>
               </div>
 
@@ -364,11 +375,13 @@ Go est un langage moderne qui a pour vocation d&rsquo;être simple à comprendre
       <div class="pagination-nav">
         <div class="pagination-button next-post">
           
-          <div>«&nbsp;</div><a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/post/1_systemeecoute/"> Système d`écoute</a>
+          <div>«&nbsp;</div><a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/post/5_tendancesjs/"> Tendances JavaScript 2023</a>
           
         </div>
         
         <div class="pagination-button previous-post">
+          
+          <a class="pagination-link link-reverse" href="https://quinteirosm.labveiltec.ch/post/3_optimisationnotification/">Comment faire un système de notifications...&nbsp;</a><div> »</div>
           
         </div>
       </div>

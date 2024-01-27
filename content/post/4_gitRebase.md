@@ -1,6 +1,6 @@
 +++
 title = 'Problèmes et Solutions de `git rebase` dans Git'
-date = 2024-01-22T20:00:00+08:00
+date = 2024-01-22
 author = "quinteirosm"
 keywords = ["notification", "webhooks", "scalability" ]
 cover = ""
@@ -64,6 +64,8 @@ Utiliser la fonction "squash and merge" de GitHub pour combiner une série de co
 Bien que `git rebase` puisse être un outil puissant pour maintenir un historique propre, il est important de l'utiliser avec prudence. En suivant les conseils et solutions proposés, les développeurs peuvent éviter les pièges courants et utiliser Git plus efficacement dans leurs projets.
 
 ## En quoi cela m'est utile
+
+Git étant omniprésent dans le secteur du développement, nous avons souvent eu à l'utiliser. Le problème est que lorsque l'on est débutant un couac peut vite arriver suite à une fusion, un merge ou un rebase et l'on peut se retrouver avec beaucoup de fichiers écrasés ou des effets de bord auxquels on ne s'attend pas car on en a pas la connaissance. C'est pour cela que cet article m'a directement sauté aux yeux, car il est impératif de toujours savoir où aller chercher une solution à propos d'un problème qui risque de compliquer un projet.
 
 ## Source
 

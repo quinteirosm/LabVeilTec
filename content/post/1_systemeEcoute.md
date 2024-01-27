@@ -1,6 +1,6 @@
 +++
 title = 'Système d`écoute'
-date = 2024-01-01T20:00:00+08:00
+date = 2024-01-01
 author = "quinteirosm"
 keywords = ["intro", "justification", "sytème", "écoute"]
 cover = ""

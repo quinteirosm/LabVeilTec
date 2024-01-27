@@ -1,6 +1,6 @@
 +++
 title = 'Tendances JavaScript 2023'
-date = 2024-01-24T20:00:00+08:00
+date = 2024-01-24
 author = "quinteirosm"
 keywords = ["notification", "webhooks", "scalability" ]
 cover = ""
@@ -50,6 +50,8 @@ La bibliothèque **React** maintient sa position de leader dans le développemen
 L'année 2023 a été riche en innovations dans le domaine du JavaScript. Ces bibliothèques et frameworks illustrent la diversité et la richesse des outils disponibles pour les développeurs, chacun répondant à des besoins spécifiques et contribuant à façonner l'avenir du développement web.
 
 ## En quoi cela m'est utile
+
+Le domaine du développement web étant en constante évolution, il faut toujours se tenir à la page. Connaître et se former sur les nouvelles technologies n'est pas seulement un challenge, mais aussi une qualité qui peut nous permettre de trouver un travail plus facilement de par la largeur du bagage acquis.
 
 ## Source
 

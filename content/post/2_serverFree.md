@@ -1,6 +1,6 @@
 +++
 title = 'Découverte de ServerFree'
-date = 2024-01-10T20:00:00+08:00
+date = 2024-01-10
 author = "quinteirosm"
 keywords = ["ServerFree", ]
 cover = ""
@@ -35,6 +35,8 @@ Cette architecture permet également de répartir la charge de calcul habituelle
 ServerFree™ ouvre la voie à une nouvelle génération d'applications web plus sécurisées, privées et performantes. Bien que cette approche puisse sembler radicale, elle offre une perspective fascinante sur ce que pourrait être le futur du développement web, en plaçant davantage de contrôle entre les mains des utilisateurs finaux.
 
 ## En quoi cela m'est utile
+
+C'est un sujet que j'ai trouvé très intéressant car il peut être utile dans le cas de petits projets. Si le client ne souhaite pas avoir de coûts supplémentaires que l'hébergement et le nom de domaine, cela peut totalement être une solution envisageeable.
 
 ## Source
 

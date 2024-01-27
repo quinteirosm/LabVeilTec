@@ -6,41 +6,48 @@
     <description>Recent content in Posts on LabVeilTec - quinteirosm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-ch</language>
-    <lastBuildDate>Wed, 24 Jan 2024 20:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://quinteirosm.labveiltec.ch/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Expérimentation | Hugo SSG</title>
+      <link>https://quinteirosm.labveiltec.ch/post/6_experimentation/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://quinteirosm.labveiltec.ch/post/6_experimentation/</guid>
+      <description>Introduction Durant le cours de LabVeilTec, on nous a demandé de rendre ces différents articles sous forme de site web utilisant un SSG afin de découvrir de nouvelles technologies. Cela m&amp;rsquo;a beaucoup intéressé car c&amp;rsquo;est un système qui permet d&amp;rsquo;avoir un site facilement gérable en terme de contenu, et cela en créant des fichiers au format MarkDown. Le SSG que j&amp;rsquo;avais choisis durant le cours était Hugo et vous pouvez en retrouver les raisons ici.</description>
+    </item>
+    <item>
       <title>Tendances JavaScript 2023</title>
-      <link>https://quinteirosm.labveiltec.ch/post/article5/</link>
-      <pubDate>Wed, 24 Jan 2024 20:00:00 +0800</pubDate>
-      <guid>https://quinteirosm.labveiltec.ch/post/article5/</guid>
+      <link>https://quinteirosm.labveiltec.ch/post/5_tendancesjs/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://quinteirosm.labveiltec.ch/post/5_tendancesjs/</guid>
       <description>En 2023, le paysage du développement web a été marqué par l&amp;rsquo;apparition de nouvelles bibliothèques et frameworks JavaScript, ainsi que par la croissance continue de certains projets existants. Ces outils ont façonné la manière dont les développeurs construisent des applications web et des interfaces utilisateur.</description>
     </item>
     <item>
       <title>Problèmes et Solutions de `git rebase` dans Git</title>
-      <link>https://quinteirosm.labveiltec.ch/post/article4/</link>
-      <pubDate>Mon, 22 Jan 2024 20:00:00 +0800</pubDate>
-      <guid>https://quinteirosm.labveiltec.ch/post/article4/</guid>
+      <link>https://quinteirosm.labveiltec.ch/post/4_gitrebase/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://quinteirosm.labveiltec.ch/post/4_gitrebase/</guid>
       <description>L&amp;rsquo;utilisation de la commande &lt;code&gt;git rebase&lt;/code&gt; peut souvent sembler un défi, même pour les développeurs expérimentés. Cet article explore les problèmes fréquemment rencontrés et offre des solutions pratiques pour travailler plus efficacement avec Git.</description>
     </item>
     <item>
       <title>Comment faire un système de notifications scalable?</title>
-      <link>https://quinteirosm.labveiltec.ch/post/article3/</link>
-      <pubDate>Sat, 20 Jan 2024 20:00:00 +0800</pubDate>
-      <guid>https://quinteirosm.labveiltec.ch/post/article3/</guid>
+      <link>https://quinteirosm.labveiltec.ch/post/3_optimisationnotification/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://quinteirosm.labveiltec.ch/post/3_optimisationnotification/</guid>
       <description>Razorpay, une plateforme de paiement innovante, a récemment amélioré son système de notification pour gérer efficacement les communications avec ses clients. Cet article explore les défis auxquels Razorpay était confronté, les solutions mises en œuvre, et comment l&amp;rsquo;entreprise a assuré l&amp;rsquo;observabilité de son système.</description>
     </item>
     <item>
       <title>Découverte de ServerFree</title>
-      <link>https://quinteirosm.labveiltec.ch/post/article2/</link>
-      <pubDate>Wed, 10 Jan 2024 20:00:00 +0800</pubDate>
-      <guid>https://quinteirosm.labveiltec.ch/post/article2/</guid>
+      <link>https://quinteirosm.labveiltec.ch/post/2_serverfree/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://quinteirosm.labveiltec.ch/post/2_serverfree/</guid>
       <description>L&amp;rsquo;architecture ServerFree™ propose une vision audacieuse où les applications web s&amp;rsquo;exécutent intégralement dans le navigateur, sans aucun serveur backend. Cet article explore les rouages de cette architecture et ses avantages potentiels, notamment en matière de protection de la vie privée et de décentralisation du traitement des données.</description>
     </item>
     <item>
       <title>Système d`écoute</title>
-      <link>https://quinteirosm.labveiltec.ch/post/article1/</link>
-      <pubDate>Mon, 01 Jan 2024 20:00:00 +0800</pubDate>
-      <guid>https://quinteirosm.labveiltec.ch/post/article1/</guid>
+      <link>https://quinteirosm.labveiltec.ch/post/1_systemeecoute/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://quinteirosm.labveiltec.ch/post/1_systemeecoute/</guid>
       <description>De base je n’avais pas de système d’écoute, j’utilisais des apps ou des sites de la manière la plus simple possible. Le problème de cette méthode est que oui, on se documente mais on ne garde rien à côté. Si l’on veut retrouver des informations que l’on a lues antérieurement il faut s’en rappeller et les rechercher à nouveau.</description>
     </item>
   </channel>
